@@ -9,6 +9,10 @@
 </head>
 <body>
     <main id="app">
+        <header>
+            <img src="images/logo.jpg">
+            <h1>CHECK OUT OR LATEST MODELS!</h1>
+        </header>
         <ul class="thumbnails">
             <car-card @showmydata="showCarData" v-for="item, index in collection" :car="item" :key="item.id"> 
             </car-card>
